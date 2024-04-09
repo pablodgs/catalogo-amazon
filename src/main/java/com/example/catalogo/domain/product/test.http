@@ -1,0 +1,20 @@
+### GET all categories
+
+GET http://localhost:8080/categories
+
+### GET all products
+
+GET http://localhost:8080/products
+
+### POST a new product
+
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+  "id": "2",
+  "title": "My first blog",
+  "description": "This is my first blog",
+  "ownerId": "1",
+  "price": 100
+}
