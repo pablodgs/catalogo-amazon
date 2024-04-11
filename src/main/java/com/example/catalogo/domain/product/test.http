@@ -1,14 +1,14 @@
 ### GET all categories
 
-GET http://localhost:8080/categories
+GET http://localhost:8080/api/category
 
 ### GET all products
 
-GET http://localhost:8080/products
+GET http://localhost:8080/api/product
 
 ### POST a new product
 
-POST http://localhost:8080/product
+POST http://localhost:8080/api/product
 Content-Type: application/json
 
 {
