@@ -8,7 +8,6 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.SimpleMongoClientDatabaseFactory;
 
 import com.example.catalogo.domain.category.Category;
-import com.example.catalogo.domain.product.Product;
 import com.example.catalogo.repositories.CategoryRepository;
 import com.example.catalogo.repositories.ProductRepository;
 
