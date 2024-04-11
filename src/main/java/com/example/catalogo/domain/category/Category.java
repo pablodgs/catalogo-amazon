@@ -19,6 +19,6 @@ public class Category {
     public Category(CategoryDTO categoryData){
         this.title = categoryData.title();
         this.description = categoryData.description();
-        this.ownerId = categoryData.owernId();
+        this.ownerId = categoryData.ownerId();
     }
 }
